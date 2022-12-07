@@ -1,0 +1,51 @@
+#pt:checked~ .css,
+#pt:checked~ .js,
+#pt:checked~ .ts,
+#pt:checked~ .figma,
+#pt:checked~ .html{
+    opacity: 0.1;
+}
+#css:checked~ .ts,
+#css:checked~ .js,
+#css:checked~ .figma,
+#css:checked~ .pt,
+#css:checked~ .html{
+    opacity: 0.1;
+}
+#html:checked~ .js,
+#html:checked~ .figma,
+#html:checked~ .pt,
+#html:checked~ .ts,
+#html:checked~ .css {
+    opacity: 0.1;
+}
+#js:checked~ .ts,
+#js:checked~ .figma,
+#js:checked~ .css,
+#js:checked~ .pt,
+#js:checked~ .html{
+    opacity: 0.1;
+}
+#figma:checked~ .css,
+#figma:checked~ .js,
+#figma:checked~ .ts,
+#figma:checked~ .pt,
+#figma:checked~ .html{
+    opacity: 0.1;
+}
+#ts:checked~ .css,
+#ts:checked~ .js,
+#ts:checked~ .figma,
+#ts:checked~ .pt,
+#ts:checked~ .html{
+    opacity: 0.1;
+}
+
+.image input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
